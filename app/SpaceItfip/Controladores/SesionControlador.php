@@ -9,7 +9,7 @@ class SesionControlador
      * [obtener description]
      * @return [type] [description]
      */
-    public static function obtener()
+    public static function obtener($llave)
     {
         self::inicializarSesion();
         return $_SESSION[$llave];
